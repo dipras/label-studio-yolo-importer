@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "inquirer": "^12.6.0",
+    "js-yaml": "^4.1.0"
+  }
+}
