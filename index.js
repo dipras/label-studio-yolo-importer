@@ -126,7 +126,7 @@ const filter = (ids) => {
             .filter(line => {
                 if (!line) return false;
                 const id = parseInt(line.split(' ')[0], 10);
-                if (allowedIds.includes(id)) {
+                if (allowedIds.has(id)) {
                     if (idCount[id] === undefined) {
                         idCount[id] = 0;
                     }
